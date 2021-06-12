@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body{
+    color: #2B2A27;
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', 'Meiryo', sans-serif;
+}
+
+.section-title{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+a{
+    color: #2B2A27;
+}
+
+
+/* mainVisual */
+#mainVisual{
+    height: 600px;
+    background-image: url(../img/mainvisual.jpg);
+    background-size: cover;
+}
+
+/* Recipe Diary */
+#recipe-diary{
+    max-width: max-content;
+    margin: 80px auto;
+}
+
+#recipe-diary h3, #recipe-diary p{
+    text-align: center;    
+}
+/* Recipe image */
+#recipe-img{
+    display: flex;
+}
+
+#recipe-img img{
+    width: 33.3%;
+    height: 500px;
+}
+/* Recipe button */
+#recipe-btn{
+    text-align: center;
+    margin: 60px 0 100px 0;
+}
+
+#recipe-btn button{
+    padding: 15px 60px;
+    border: 1px solid #2B2A27;
+}
+/* footer */
+footer{
+    text-align: center;
+}
+
+#instagram, #twitter{
+    margin-right: 19.5px;
+}
+
+footer p{
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 834px) {
+    /* Recipe image */
+    #recipe-img{
+        flex-direction: column;
+    }
+
+    #recipe-img img{
+        width: 100%;
+    
+    }
+}
